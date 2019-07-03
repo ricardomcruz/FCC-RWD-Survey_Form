@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="mystyle.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,800" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <h1 id="title">
+        Contact Form
+        </h1>
+
+
+
+
+        <form id = "survey-form">
+
+            <p id="description">
+            If you want to be contacted soon, please provide some information about yourserlf!
+            </p>
+
+
+    <diV class ="row">
+        <diV class ="leftlabel" >
+            <label for="name" id="name-label">First Name:</label>
+        </diV>
+        <diV class="rightinput">
+            <input id = "name" type="text" placeholder="First Name" required>
+        </diV>
+    </div>
+    <diV class ="row">
+        <diV class ="leftlabel">
+            <label for="lastname">Last Name:</label>
+        </diV>
+        <diV class="rightinput">
+            <input id = "lastname" type="text" placeholder="Last Name">
+        </diV>
+    </diV >
+    <diV class ="row">
+        <diV class ="leftlabel" >
+            <label for="email" id="email-label">E-mail:</label>
+        </diV>
+        <diV class="rightinput">
+            <input id = "email" type="email" placeholder="E-mail" required>
+        </diV>
+    </diV>
+    <diV class ="row">
+        <div class ="leftlabel" >
+            <label for="number" id="number-label">Age:</label>
+        </div>
+        <div class="rightinput">
+            <input id = "number" type="number" min="1" max="120" placeholder="Age">
+        </div>
+    </div>
+
+<div class =row>
+    <div class ="leftlabel">
+        <label for="dropdown">Gender:</label>
+    </div>
+    <div class ="rightinput">
+            <input type="radio" name="gender" value="male" checked> Male
+            <input type="radio" name="gender" value="female"> Female
+            <input type="radio" name="gender" value="other"> Other
+    </div>
+</div>
+<div class ="row">
+    <div class ="leftlabel">
+        <label for="dropdown">When do you prefer to be contacted?:</label>
+    </div>
+    <div class="rightinput">
+        <select name="Time" id="dropdown">
+            <option value="Morning">Morning</option>
+            <option value="Afternoon">Afternoon</option>
+            <option value="Evening">Evening</option>
+        </select>
+    </div>
+</div>
+<div clas ="row">
+    <div class ="leftlabel">
+        <label for="dropdown">What was your favorite model</label>
+    </div>
+    <div class ="rightinput">
+            <input type="checkbox" value="grid1" name="vehicle"> CVKGHO
+            <input type="checkbox" value="grid2" name="vehicle"> RXGHTD
+    </div>
+</div>
+<div clas="row">
+    <div class ="leftlabel">
+        <label>If you have some observations please indicate:</label>
+    </div>
+    <div  id="texttable">
+            <textarea name="name"  placeholder="Info here"></textarea>
+    </div>
+</div>
+
+    <div id ="button">
+            <button id="submit" type="submit">Submit</button>
+    </div>
+</div>
+
+
+        </form>
+
+<div class="">
+        <p id="description">
+        Thank You!
+        </p>
+</div>
+
+
+
+
+    </body>
+
+</html>

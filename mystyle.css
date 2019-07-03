@@ -1,0 +1,122 @@
+html{
+min-height: 100%;
+}
+
+body{
+    background: rgb(105,255,240);
+    background: linear-gradient(45deg, rgba(105,255,240,1) 0%, rgba(0,212,255,1) 100%);
+font-family: 'Raleway', sans-serif;
+}
+
+#survey-form{
+background-color: white;
+margin: auto;
+width: 80%;
+max-width: 600px;
+padding: 10px;
+font-size: 10px;
+border-style: solid;
+border-color: black;
+border-width: thin;
+}
+
+h1{
+text-align: center;
+font-family: 'Lobster', cursive;
+font-size: 45px;
+
+}
+
+p{
+    font-size: 18px;
+    font-style: bold;
+}
+
+.row{
+padding-top: 5px;
+padding-bottom: 5px;
+}
+
+.leftlabel {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  padding: 3px;
+  vertical-align: top;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.rightinput {
+  display: inline-block;
+  text-align: left;
+  width: 40%;
+  padding: 3px;
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+#texttable{
+
+    display: inline-block;
+    text-align: left;
+    width: 40%;
+    padding: 3px;
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+#description{
+    margin: auto;
+    padding: 10px;
+    text-align:center;
+}
+
+#button{
+    margin: auto;
+    padding: 10px;
+    text-align:center;
+}
+
+.final{
+height: 60px;
+}
+
+#dropdown{
+width: 40%;
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+
+    .row{
+    width: 80%;
+    }
+
+  .leftlabel {
+    width: 100%;
+    text-align: left;
+    padding-top: 3px;
+    padding-bottom: 0px;
+  }
+  .row {
+    width: 80%;
+    float: left;
+  }
+  .rightinput {
+    width: 100%;
+    padding-top: 3px;
+    padding-bottom: 0px;
+  }
+
+
+textarea{
+    width: 300px;
+      height: 150px;
+}
+
+
+
+}
